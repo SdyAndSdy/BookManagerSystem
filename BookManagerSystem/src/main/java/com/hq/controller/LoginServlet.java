@@ -20,6 +20,7 @@ public class LoginServlet extends HttpServlet {
 		//获取登录的请求参数
 		String name = req.getParameter("userName");
 		String password = req.getParameter("password");
+		System.out.println(+==============);
 		System.out.println("name:"+name);
 		System.out.println("password:"+password);
 		
